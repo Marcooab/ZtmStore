@@ -1,0 +1,34 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 70px;
+
+  .logo {
+    height: 100%;
+    width: 70px;
+    padding: 15px;
+  }
+
+
+  .nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; 
+    list-style: none;
+    padding: 20px;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+   
+  }
+
+  .nav-items {
+    font-weight: bold;
+    font-size: 1.3rem;
+    opacity: 0.6;
+    padding: 10px 15px;
+    cursor: pointer;
+   
+  }
+}
